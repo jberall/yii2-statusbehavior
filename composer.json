@@ -1,0 +1,21 @@
+{
+    "name": "jberall/yii2-statusbehavior",
+    "description": "A behavior that set the status to 0 when the status_column is set to null.  triggered on BaseActiveRecord::EVENT_BEFORE_INSERT and BaseActiveRecord::EVENT_BEFORE_UPDATE",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","behavior","status"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Jonathan Berall",
+            "email": "jberall@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "jberall\\statusbehavior\\": "src"
+        }
+    }
+}
