@@ -41,3 +41,5 @@ Once the extension is installed, simply use it in your code by  :
         return ArrayHelper::merge(parent::behaviors(),$behaviors);
 
     }  
+	
+Tag Testing
